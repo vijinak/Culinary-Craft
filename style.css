@@ -22,11 +22,11 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
-    animation: banner 30s infinite;
+    animation: banner 30s infinite ease-in-out forwards;
 }
 @keyframes banner{
     0%{
-        transition: .5s;
+        /* transition: .5s; */
         background-image: url('./Images/img4.jpg');
     }
     /* 25%{
@@ -34,7 +34,7 @@ body{
         background-image: url('./img1.jpg');
     } */
     50%{
-        transition: .5s;
+        /* transition: .5s; */
         background-image: url('./Images/img7.jpg');
     }
     /* 75%{
@@ -42,7 +42,7 @@ body{
         background-image: url('./img.jpg');
     } */
     100%{
-        transition: .5s;
+        /* transition: .5s; */
         background-image: url('./Images/img8.jpg');
     }
 }
